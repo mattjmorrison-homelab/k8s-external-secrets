@@ -1,0 +1,4 @@
+apiVersion: v2
+name: external-secrets-verify
+description: Post-deploy verify hook for external-secrets
+version: 0.1.0
