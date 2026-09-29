@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Resource
+metadata:
+  name: k8s-external-secrets
+  annotations:
+    github.com/project-slug: mattjmorrison-homelab/k8s-external-secrets
+spec:
+  type: secret-sync
+  owner: mattjmorrison-homelab
+  system: external-secrets
